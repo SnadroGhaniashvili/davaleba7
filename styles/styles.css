@@ -1,0 +1,19 @@
+body  {
+  background-image: url("../images/back.jpg");
+  height: 1000px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.ship1{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
