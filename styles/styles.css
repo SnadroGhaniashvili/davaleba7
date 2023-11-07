@@ -19,6 +19,6 @@ img{
   width: 100px;
 }
 @keyframes mymove {
-  from {right: 0px;}
-  to {right: 300px;}
+  from {left: 0px;}
+  to {left: 100%;}
 }
